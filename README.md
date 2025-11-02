@@ -1,4 +1,4 @@
-# ZKEncrypt Solidityx
+# ZKEncrypt Solidity
 
 Solidity smart contract library for ZKEncrypt Network - Build privacy-preserving decentralized applications with Fully Homomorphic Encryption (FHE).
 
