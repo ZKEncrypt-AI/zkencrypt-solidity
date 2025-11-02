@@ -1,0 +1,48 @@
+{
+  "name": "@zkencrypt/solidity",
+  "version": "1.0.0",
+  "description": "Solidity smart contracts for ZKEncrypt Network - Privacy-preserving FHE contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy": "hardhat run scripts/deploy.js",
+    "verify": "hardhat run scripts/verify.js",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "format": "prettier --write 'contracts/**/*.sol'"
+  },
+  "keywords": [
+    "zkencrypt",
+    "solidity",
+    "smart-contracts",
+    "fhe",
+    "homomorphic-encryption",
+    "privacy",
+    "blockchain",
+    "ethereum"
+  ],
+  "author": "ZKEncrypt AI Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZKEncrypt-AI/zkencrypt-solidity.git"
+  },
+  "files": [
+    "contracts",
+    "artifacts",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "hardhat": "^2.22.18",
+    "solhint": "^5.0.3",
+    "prettier": "^3.4.2",
+    "prettier-plugin-solidity": "^1.4.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
